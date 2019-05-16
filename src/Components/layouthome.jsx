@@ -9,26 +9,19 @@ import {
   Input,
   Dropdown,
   Icon,
-  Carousel
+  Carousel,
+  Card
 } from "antd";
 const { Header, Content, Footer } = Layout;
 const menu = (
   <Menu>
     <Menu.Item key="0">
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="http://www.alipay.com/"
-      >
+      <a target="_blank" rel="noopener noreferrer" href=".">
         Kemeja
       </a>
     </Menu.Item>
     <Menu.Item key="1">
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="http://www.taobao.com/"
-      >
+      <a target="_blank" rel="noopener noreferrer" href=".">
         Dress
       </a>
     </Menu.Item>
@@ -37,20 +30,12 @@ const menu = (
 const menu2 = (
   <Menu>
     <Menu.Item key="0">
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="http://www.alipay.com/"
-      >
+      <a target="_blank" rel="noopener noreferrer" href=".">
         Heels
       </a>
     </Menu.Item>
     <Menu.Item key="1">
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="http://www.taobao.com/"
-      >
+      <a target="_blank" rel="noopener noreferrer" href=".">
         Sandal
       </a>
     </Menu.Item>
@@ -59,20 +44,12 @@ const menu2 = (
 const menu3 = (
   <Menu>
     <Menu.Item key="0">
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="http://www.alipay.com/"
-      >
+      <a target="_blank" rel="noopener noreferrer" href=".">
         Sekolah
       </a>
     </Menu.Item>
     <Menu.Item key="1">
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="http://www.taobao.com/"
-      >
+      <a target="_blank" rel="noopener noreferrer" href=".">
         Petualang
       </a>
     </Menu.Item>
@@ -81,20 +58,12 @@ const menu3 = (
 const menu4 = (
   <Menu>
     <Menu.Item key="0">
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="http://www.alipay.com/"
-      >
+      <a target="_blank" rel="noopener noreferrer" href=".">
         Topi
       </a>
     </Menu.Item>
     <Menu.Item key="1">
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="http://www.taobao.com/"
-      >
+      <a target="_blank" rel="noopener noreferrer" href=".">
         Dompet
       </a>
     </Menu.Item>
@@ -154,9 +123,7 @@ export default class LayoutHome extends Component {
               </a>
             </Dropdown>
           </Breadcrumb>
-
           {/* Ini Content nya yakk          */}
-
           <div style={{ background: "#fff", padding: 10, maxHeight: 150 }}>
             <Carousel autoplay>
               <div>
@@ -197,6 +164,36 @@ export default class LayoutHome extends Component {
                   src="https://mm-image-marketing.s3.amazonaws.com/mds/banner/2019/MAY/140519/DESKTOP_B2_WOMEN-03.jpg"
                   style={{ maxWidth: 140 }}
                 />
+              </Col>
+            </Row>
+          </div>
+          <br />
+          <h3>PRODUK TERBARU</h3>
+          <div style={{ background: "#ECECEC" }}>
+            <Row gutter={5}>
+              <Col span={8}>
+                <Card title="Nevada" bordered={false}>
+                  <img
+                    src="https://mm-imgs.s3.amazonaws.com/tx400/2019/05/15/14/celana-panjang-wanita_nevada-celana-panjang-night-bear-black_4793179__047792.jpg"
+                    style={{ maxWidth: 70 }}
+                  />
+                </Card>
+              </Col>
+              <Col span={8}>
+                <Card title="ST.YVES" bordered={false}>
+                  <img
+                    src="https://mm-imgs.s3.amazonaws.com/tx400/2019/05/15/14/blouse_st.yves-blouse-lengan-panjang-print-forest-green_4793048__048312.jpg"
+                    style={{ maxWidth: 70 }}
+                  />
+                </Card>
+              </Col>
+              <Col span={8}>
+                <Card title="ST.YVES" bordered={false}>
+                  <img
+                    src="https://mm-imgs.s3.amazonaws.com/tx400/2019/05/16/14/st-yves-celana-panjang-heritage-indies-off-white_4793181_2_91739.jpg"
+                    style={{ maxWidth: 70 }}
+                  />
+                </Card>
               </Col>
             </Row>
           </div>
