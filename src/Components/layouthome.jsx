@@ -124,30 +124,35 @@ export default class LayoutHome extends Component {
             </Dropdown>
           </Breadcrumb>
           {/* Ini Content nya yakk          */}
-          <div style={{ background: "#fff", padding: 10, maxHeight: 150 }}>
+          <div style={{ background: "#fff", padding: 10, maxHeight: 190 }}>
+            <img
+              src="https://i.ibb.co/bv5dZyV/Untitled.png"
+              style={{ maxWidth: 320 }}
+            />
+
             <Carousel autoplay>
               <div>
                 <img
                   src="https://mm-image-marketing.s3.amazonaws.com/mds/banner/2019/MAY/160519/160519_NEW/DESKTOP_A1_MENWOMEN.gif"
-                  style={{ maxHeight: 160 }}
+                  style={{ maxHeight: 185 }}
                 />
               </div>
               <div>
                 <img
-                  src="https://mm-image-marketing.s3.amazonaws.com/mds/banner/2019/MAY/140519/DESKTOP_A2.jpg"
-                  style={{ maxHeight: 160 }}
+                  src="https://mm-image-marketing.s3.amazonaws.com/mds/banner/2019/MAY/170519/170519_FS/DESKTOP_A1_FS.gif"
+                  style={{ maxHeight: 185 }}
                 />
               </div>
               <div>
                 <img
                   src="https://mm-image-marketing.s3.amazonaws.com/mds/banner/2019/MAY/160519/160519_NEW/DESKTOP_A1_MENWOMEN.gif"
-                  style={{ maxHeight: 160 }}
+                  style={{ maxHeight: 185 }}
                 />
               </div>
               <div>
                 <img
-                  src="https://mm-image-marketing.s3.amazonaws.com/mds/banner/2019/MAY/140519/DESKTOP_A2.jpg"
-                  style={{ maxHeight: 160 }}
+                  src="https://mm-image-marketing.s3.amazonaws.com/mds/banner/2019/MAY/170519/170519_FS/DESKTOP_A1_FS.gif"
+                  style={{ maxHeight: 185 }}
                 />
               </div>
             </Carousel>
@@ -156,13 +161,13 @@ export default class LayoutHome extends Component {
               <Col span={12}>
                 <img
                   src="https://mm-image-marketing.s3.amazonaws.com/mds/banner/2019/MAY/130519/DESKTOP_B1_WOMEN-02.jpg"
-                  style={{ maxWidth: 140 }}
+                  style={{ maxWidth: 160 }}
                 />
               </Col>
               <Col span={12}>
                 <img
                   src="https://mm-image-marketing.s3.amazonaws.com/mds/banner/2019/MAY/140519/DESKTOP_B2_WOMEN-03.jpg"
-                  style={{ maxWidth: 140 }}
+                  style={{ maxWidth: 160 }}
                 />
               </Col>
             </Row>
@@ -196,6 +201,82 @@ export default class LayoutHome extends Component {
                 </Card>
               </Col>
             </Row>
+            <br />
+            <Row gutter={5}>
+              <Col span={8}>
+                <Card title="Connexion" bordered={false}>
+                  <img
+                    src="https://mm-imgs.s3.amazonaws.com/tx400/2019/05/17/10/flat-shoes_connexion-flat-shoes-xl020-elastis-khaki_4787574__622793-2.JPG"
+                    style={{ maxWidth: 70 }}
+                  />
+                </Card>
+              </Col>
+              <Col span={8}>
+                <Card title="Feligio" bordered={false}>
+                  <img
+                    src="https://mm-imgs.s3.amazonaws.com/tx400/2018/01/25/16/renee-hand-bag-wanita-cokelat_4353547_2_74114.jpg"
+                    style={{ maxWidth: 70 }}
+                  />
+                </Card>
+              </Col>
+              <Col span={8}>
+                <Card title="T Zone" bordered={false}>
+                  <img
+                    src="https://mm-imgs.s3.amazonaws.com/tx400/2018/02/21/20/t-zone-long-sleeve-round-neck-basic-tee-biru_4352681_2_18874.jpg"
+                    style={{ maxWidth: 70 }}
+                  />
+                </Card>
+              </Col>
+            </Row>
+            <br />
+            <div style={{ backgroundColor: "white" }}>
+              <Row>
+                <Col span={12}>
+                  <img
+                    src="https://mm-image-marketing.s3.amazonaws.com/mds/banner/2019/MAY/130519/desktop_c_361.jpg"
+                    style={{ maxWidth: 150, minHeight: 70 }}
+                  />
+                </Col>
+                <Col span={12}>
+                  <img
+                    src="https://mm-image-marketing.s3.amazonaws.com/mds/banner/DISNEY_AVENGERS_END_GAME/C4_DISNEY_AVENGER.jpg"
+                    style={{ maxWidth: 150, minHeight: 70 }}
+                  />
+                </Col>
+              </Row>
+              <br />
+              <h3>POPULAR BRANDS</h3>
+              <Row gutter={5}>
+                <Col span={6}>
+                  <img
+                    src="https://mm-image-marketing.s3.amazonaws.com/mds/bangsawan/WOMEN/EPRISE.jpg"
+                    style={{ maxWidth: 70 }}
+                  />
+                </Col>
+                <Col span={6}>
+                  <img
+                    src="https://mm-image-marketing.s3.amazonaws.com/mds/bangsawan/WOMEN/HUER.jpg"
+                    style={{ maxWidth: 70 }}
+                  />
+                </Col>
+                <Col span={6}>
+                  <img
+                    src="https://mm-image-marketing.s3.amazonaws.com/mds/bangsawan/WOMEN/MIYOSHI.jpg"
+                    style={{ maxWidth: 70 }}
+                  />
+                </Col>
+                <Col span={6}>
+                  <img
+                    src="https://mm-image-marketing.s3.amazonaws.com/mds/bangsawan/WOMEN/PALOMINO.jpg"
+                    style={{ maxWidth: 70 }}
+                  />
+                </Col>
+              </Row>
+              <img
+                src="https://i.ibb.co/PM948L5/metode-pembayaran.png"
+                style={{ maxWidth: 320 }}
+              />
+            </div>
           </div>
         </Content>
 
